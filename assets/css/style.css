@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@100&display=swap');
+/* Colors */
+
+
+
+/* Padding/ Margins / Text */
+
+
+
+/* Heading */
+
+.header-heading h1 {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 140px;
+    text-align: center;
+    padding: 0;
+    margin-top: 170px;
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    filter: grayscale(60%);
+}
+
+.header-heading p {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.container-header {
+    background-color: rgba(255, 255, 255, 0.25);
+
+}
+
+/* Menu Iteams */
+
+
+
+/* Hover */
+
+
+
+/* Footer */
+
+
+
+/* Navbar */
+
+.container {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    position: relative;
+}
+
+.container a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-link {
+    padding: 60px;
+}
+
