@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@100&display=swap');
 /* Colors */
 
@@ -9,7 +10,7 @@
 
 /* Heading */
 
-.header-heading h1 {
+.header h1 {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 140px;
     text-align: center;
@@ -36,7 +37,7 @@
 
 
 
-.header-heading p {
+.header p {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 50px;
     text-align: center;
@@ -44,7 +45,7 @@
     color: rgba(0, 0, 0, 0.8);
 }
 
-.container-header {
+.header {
     background-color: rgba(255, 255, 255, 0.35);
 
 }
@@ -63,20 +64,30 @@
 
 /* Navbar */
 
+#navcolor {
+    background-color: rgba(255, 255, 255, 0.50);
+    width: 100%;
+    padding-top: 0;
+    position: sticky;
+    top: 0;
+}
+
 .container {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 40px;
     margin-top: 0;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 .container a {
-    color: #fff;
+    color: rgba(0, 0, 0, 0.8);
     font-weight: 500;
 }
 
 .nav-link {
-    padding: 60px;
+    padding-top: 30px;
+    padding-left: 120px;
 }
 
 
@@ -95,4 +106,3 @@
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 90px;
 }
-
