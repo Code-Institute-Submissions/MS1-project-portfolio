@@ -65,11 +65,12 @@
 /* Navbar */
 
 #navcolor {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     padding-top: 0;
     position: sticky;
     top: 0;
+    z-index: auto;
 }
 
 .container {
@@ -78,6 +79,7 @@
     margin-top: 0;
     position: sticky;
     top: 0;
+    z-index: -1;
 }
 
 .container a {
@@ -87,7 +89,8 @@
 
 .nav-link {
     padding-top: 10px;
-    padding-left: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -95,14 +98,15 @@
 
 #profil-pic {
     border-radius: 50%;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
 }
 
-.about-top {
+.contact-top {
     text-align: center;
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 90px;
+    margin-top: 60px;
 }
 
 
@@ -117,6 +121,7 @@
 
 .card {
     margin-top: 80px;
+    z-index: -1;
 }
 
 .card h5 {
