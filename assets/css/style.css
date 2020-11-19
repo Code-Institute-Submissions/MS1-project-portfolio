@@ -10,6 +10,10 @@
 
 /* Heading */
 
+body {
+    overflow-x: hidden;
+}
+
 .header h1 {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 140px;
@@ -60,6 +64,20 @@
 
 /* Footer */
 
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    z-index: -1;
+}
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.page-footer i {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
 /* Navbar */
