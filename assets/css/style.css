@@ -67,7 +67,7 @@ body {
 .page-footer {
     background-color: rgba(0, 0, 0, 0.1);
     margin-top: 100px;
-    z-index: -1;
+    z-index: 0;
 }
 
 .footer-copyright {
@@ -111,6 +111,12 @@ body {
     padding-right: 50px;
 }
 
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+
+}
 
 /* About */
 
@@ -125,7 +131,7 @@ body {
     text-align: center;
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 90px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 
