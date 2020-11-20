@@ -77,6 +77,15 @@ body {
 .page-footer i {
     padding-left: 50px;
     padding-right: 50px;
+    color: black;
+}
+
+.container-social-media {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
 }
 
 
