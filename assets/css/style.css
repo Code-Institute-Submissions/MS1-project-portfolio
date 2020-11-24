@@ -58,13 +58,13 @@ body {
 /* Footer */
 
 .page-footer {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(11, 139, 142, 0.2);
     margin-top: 100px;
     z-index: 0;
 }
 
 .footer-copyright {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(11, 139, 142, 0.3);
 }
 
 .page-footer i {
