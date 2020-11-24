@@ -85,7 +85,7 @@ body {
 /* Navbar */
 
 #navcolor {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(11, 139, 142, 0.2);
     width: 100%;
     padding-top: 0;
     position: sticky;
@@ -269,7 +269,7 @@ body {
 
 .main-timeline .icon:before {
     background: #fff;
-    border: 2px solid #232323;
+    border: 2px solid rgba(11, 139, 142, 0.87);
     left: -3px
 }
 
@@ -330,7 +330,7 @@ body {
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #232323;
+    border: 2px solid rgba(11, 139, 142, 0.87);
     left: -6px
 }
 
