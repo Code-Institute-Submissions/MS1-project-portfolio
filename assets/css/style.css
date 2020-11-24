@@ -1,6 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@100&display=swap');
-/* Colors */
 
 
 
@@ -12,25 +11,23 @@
 
 body {
     overflow-x: hidden;
+    font-family: "Oswald", sans-serif;
+    color: black;
 }
 
-.header h1 {
-    font-family: "Cormorant Garamond", sans-serif;
+.custom-h1-header h1 {
     font-size: 140px;
-    text-align: center;
-    padding: 0;
-    margin-top: 170px;
-    color: black;
+    margin-top: 200px;
+
 }
 
 .bg-home {
     width: 100%;
-    height: 80%;
+    height: 100%;
     position: absolute;
     left:0px;
     top:0px;
     z-index:-1;
-    filter: grayscale(60%);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,12 +38,8 @@ body {
 
 
 
-.header p {
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 0;
-    color: rgba(0, 0, 0, 0.8);
+.custom-h1-header p {
+    font-size: 40px;
 }
 
 .header {
@@ -100,40 +93,29 @@ body {
     z-index: auto;
 }
 
-.container {
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 40px;
-    margin-top: 0;
-    position: sticky;
-    top: 0;
-    z-index: -1;
-}
-
-.container a {
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 500;
-}
 
 .nav-link {
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    color: black;
 }
 
+.nav-item a {
+    font-size: 30px;
+}
 .zoom:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.2); 
-
 }
 
 /* About */
 
 #profil-pic {
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
-    margin-top: 100px;
+    height: 100%;
+    width: 100%;
 }
 
 .contact-top {
@@ -146,17 +128,14 @@ body {
 
 /* Project */
 
-.pro-head {
-    text-align: center;
-    margin-top: 400px;
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 100px;
-}
+
+/*
 
 .card {
     margin-top: 80px;
     z-index: -1;
 }
+*/
 
 .card h5 {
     text-align: center;
@@ -170,26 +149,22 @@ body {
     font-size: 24px;
 }
 
-.card-img-top {
-    width: 612px;
-    height: 400px;
-
+.card-img-custom {
+    height: 15em;
+    object-fit: cover;
 }
 
-.skills-margin {
-    margin-top: 120px;
+.container-skills {
+    margin-top: 600px;
 }
 
-.skills-head {
-    text-align: center;
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 90px;
-    margin-top: 350px;
+.lang {
+    width: 150px;
+    height: 150px;
 }
 
 .progress {
-    width: 80%;
-    margin-left: 170px;
+    width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -213,17 +188,13 @@ body {
     font-size: 30px;
 }
 
-.timeline-header h1 {
+.custom-h1 {
     text-align: center;
     font-family: "Cormorant Garamond", sans-serif;
-    font-size: 80px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    font-size: 50px;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
-
-
-
-
 
 .main-timeline {
     position: relative
