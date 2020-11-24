@@ -90,7 +90,7 @@ body {
     padding-top: 0;
     position: sticky;
     top: 0;
-    z-index: auto;
+    z-index: 2;
 }
 
 
@@ -99,6 +99,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     color: black;
+    z-index: 2;
 }
 
 .nav-item a {
@@ -118,6 +119,7 @@ body {
     width: 100%;
     height: auto !important;
 }
+
 @media all and (max-width: 500px) and (min-width: 500px), (min-width: 500px) {
     #profil-pic {
       width: 500px;
