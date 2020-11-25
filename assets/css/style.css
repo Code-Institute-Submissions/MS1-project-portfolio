@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
 
 
 /* Padding/ Margins / Text */
@@ -11,13 +9,14 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", "Lora";
     color: black;
 }
 
 .custom-h1-header h1 {
     font-size: 140px;
     margin-top: 200px;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -39,7 +38,8 @@ body {
 
 
 .custom-h1-header p {
-    font-size: 40px;
+    font-size: 60px;
+
 }
 
 .header {
@@ -68,8 +68,7 @@ body {
 }
 
 .page-footer i {
-    padding-left: 50px;
-    padding-right: 50px;
+
     color: black;
 }
 

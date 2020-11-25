@@ -1,2 +1,3 @@
 [1119/120350.481:ERROR:directory_reader_win.cc(43)] FindFirstFile: Det gï¿½r inte att hitta sï¿½kvï¿½gen. (0x3)
 [1124/081415.710:ERROR:directory_reader_win.cc(43)] FindFirstFile: Det går inte att hitta sökvägen. (0x3)
+[1124/205834.671:ERROR:directory_reader_win.cc(43)] FindFirstFile: Det går inte att hitta sökvägen. (0x3)
