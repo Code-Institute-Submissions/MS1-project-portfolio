@@ -13,8 +13,13 @@ body {
     color: black;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+}
+
 .custom-h1-header h1 {
-    font-size: 140px;
+    font-size: 80px;
     margin-top: 200px;
     font-family: "Montserrat", sans-serif;
 
@@ -39,7 +44,7 @@ body {
 
 
 .custom-h1-header p {
-    font-size: 60px;
+    font-size: 20px;
 
 }
 
@@ -84,6 +89,35 @@ body {
 
 /* Navbar */
 
+button {
+    z-index: 2;
+}
+
+
+.navbar input {
+    opacity: 0;
+    z-index: 5;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    cursor: pointer;
+}
+
+.navbar input:checked ~ .collapse {
+    display: block;
+}
+
+.navbar-toggler-icon {
+    display: none;
+ }
+
+@media (max-width: 600px) {
+    .navbar-toggler-icon {
+      display: block;
+    }
+ }
+
 #navcolor {
     background-color: rgba(11, 139, 142, 0.2);
     width: 100%;
@@ -104,11 +138,19 @@ body {
 .nav-item a {
     font-size: 30px;
 }
-.zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.2); 
+
+
+
+
+@media (max-width: 1208px) {
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+    padding-right: 0;
+    padding-left: 0;
+    }
 }
+
+
+
 
 /* About */
 
@@ -211,7 +253,7 @@ body {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 50px;
     padding-bottom: 2em;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .main-timeline {
