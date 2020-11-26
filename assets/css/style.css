@@ -13,10 +13,6 @@ body {
     color: black;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
-}
 
 .custom-h1-header h1 {
     font-size: 80px;
@@ -44,7 +40,7 @@ body {
 
 
 .custom-h1-header p {
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
@@ -104,6 +100,10 @@ button {
     cursor: pointer;
 }
 
+nav {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 .navbar input:checked ~ .collapse {
     display: block;
 }
@@ -112,11 +112,13 @@ button {
     display: none;
  }
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
     .navbar-toggler-icon {
       display: block;
     }
  }
+
+
 
 #navcolor {
     background-color: rgba(11, 139, 142, 0.2);

@@ -11,3 +11,5 @@ https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-
 https://www.bootdey.com/snippets/view/bs4-my-experience-timeline
 
 https://mdbootstrap.com/docs/jquery/javascript/google-maps/
+
+https://stackoverflow.com/questions/53701003/how-to-remove-the-hamburger-menu-icon-in-desktop-screen-but-only-needed-in-mobil
