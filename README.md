@@ -1,7 +1,7 @@
 # MS1-PROJECT-PORTFOLIO
 
 
-This is my portfolio
+Welcome to my portfolio, on this site you get to know me better and i hope that i can get to know you too!
 
 ---
 
@@ -10,6 +10,7 @@ This is my portfolio
 * [UX](#UX)
 * [Screenshots](#screenshots)
 * [Features](#features)
+* [Testing](#testing)
 * [Technologies](#technologies)
 * [Code](#code/sources)
 * [Setup](#setup)
@@ -21,7 +22,26 @@ This is my portfolio
 
 # UX
 
-This project is my portfolio that will be used later to apply for jobs.
+
+I chose to make a portfolio as my first project in this course as a basis in order to build my brand outwards when I apply for a job. My target group is primarily recruiters and future employers. 
+I want to demonstrate my strengths' in programming as well as an idea of who I am as a person to facilitate my target group's quest for a future employee.
+
+# Features
+
+## Existing Features
+
+* Feature 1 - A navigation bar for users so they can navigate throw the page nice and smooth.
+* Feature 2 - A skills section for recruiters so they easy can get a picture of what i can.
+* Feature 3 - Project section that links to my projects.
+* Feature 4 - Timeline and contact section that also show recruiters what i have done before and how to get in touch with me. 
+* Feature 5 - A contactform for people to contact me.
+* Feature 6 - Footer with social media links and a link to download my resume.
+
+## Feature ideas to Implement
+
+* I have an idea of makeing a nicer frontpage header with js
+* The project section i wan't to do like a carusell thing so the pictures are much bigger and to add text on the pictures. This also whit js.
+* Fix the submit button so the form works.
 
 ---
 
@@ -31,7 +51,7 @@ This is a picture before my first mentor call my code were broken and things wer
 
 1. At first i had a grayscale on my background pic whitch looks nicer whitout.
 2. Several parts was "broken" in terms of alignment, mostly on mobile and tablets.
-3. I had alot of problems with the navbar, it broke on mobile and tablets. 
+3. I had alot of problems with the navigation bar, it broke on mobile and tablets. 
 4. In the beginning i didn´t use boostrap so much and i became a problem further in the project.
 
 ![alternativetext](assets/images/screen3.png)
@@ -50,21 +70,31 @@ This are pictures when im almost finished.
 
 ---
 
-# Features
+# Testing
 
-## Existing Features
+### My methods for testing my webpage consisted of:
 
-* Feature 1 - A navbar for users so they can navigate throw the page nice and smooth.
-* Feature 2 - A skills section for recruiters so they easy can get a picture of what i can.
-* Feature 3 - Project section that links to my projects.
-* Feature 4 - Timeline and contact section that also show recruiters what i have done before and how to get in touch with me. 
-* Feature 5 - A contactform for people to contact me.
-* Feature 6 - Footer with social media links and a link to download my resume.
+* Using the inspector tool to test if the page was responsive on serveral different devices. 
+* Having other people around me try to navigate the page and look for bugs that I didn't catch myself.
+* Code validator.
+* In the future I plan to implement automated tests.
 
-## Feature ideas to Implement
+My UX goals was to create a website that displayed my programming strengths' and personality to my target group (recruiters and future employers). 
 
-* I have an idea of makeing a nicer frontpage header with js
-* The project section i wan't to do like a carusell thing so the pictures are much bigger and to add text on the pictures. This also whit js.
+* I believe by creating a well-working and aesthetic website my target group can see my strength in the frontend department. Later when I have backend projects to use in the "projects" section, I can also provide a showcase of strengths' in the backend department.
+
+* I try to present my personality via the section called "My background" which contains a timeline of my previous workplaces and what I have studied before. Another section is called "Contact" which goes more in depth and has a little less formal tone.
+
+### Here is some examples of bugs that I encounterd during testing:
+
+* After trying to implement a responsive page, I didn't get the navigation bar to work correctly on smaller devices.
+1. When viewing the page on mobile or a tablet, the navigation bar had been switched into a dropdown "hamburger" menu. But when clicking on the hamburger icon, the dropdown didn't drop down to show the menu options.
+2. I solved this by adding an invisible checkbox that was layered above the hamburger icon. This way I could check for when the dropdown menu was clicked using the :checked selector in css. When the checkbox was checked I made the dropdown menu visible.
+
+* During testing I also found an issue when viewing tablet devices. The problem was that I didn't get it correctly responsive for Ipad.
+1. Using the inspector tool, I tested the page on a Ipad view. 
+2. After looking for bugs in the Ipad view, I noticed that some of the different sections where meshed together.
+3. Using media querys in the css, I made an exception for the existing margins when on a Ipad sized view.
 
 ---
 
@@ -73,8 +103,9 @@ This are pictures when im almost finished.
 This projects is created with
 
 * CSS3
-* HTML5
-* Bootstrap 4
+* HTML5 
+* Bootstrap 4 - is the framework i used to facilitate my coding.
+
 ---
 
 # Code/Sources
