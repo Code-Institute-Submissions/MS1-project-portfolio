@@ -181,9 +181,15 @@ nav {
     font-size: 20px;
 }
 
+@media (max-height: 768px) {
+    .custom-text-contact {
+        margin-top: 10px;
+        vertical-align: bottom;
+    }
+}
 
 #profil-pic {
-    border-radius: 50%;
+    align-content: center;
     max-width: 100%;
     width: 100%;
     height: auto !important;
@@ -193,6 +199,7 @@ nav {
     #profil-pic {
       width: 500px;
       height: auto;
+      align-items: center;
     }
   }
 
