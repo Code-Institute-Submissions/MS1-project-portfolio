@@ -177,6 +177,11 @@ nav {
 
 /* About */
 
+.custom-text-contact {
+    font-size: 20px;
+}
+
+
 #profil-pic {
     border-radius: 50%;
     max-width: 100%;
