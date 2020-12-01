@@ -12,86 +12,78 @@
 </head>
 
 <body>
-    <section>
+    <div id="home">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <input class="navbar-toggler fixed-top navbar fixed-top" main role="main" type="checkbox" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <input class="navbar-toggler fixed-top navbar fixed-top" type="checkbox" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-checked="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             <div class="collapse navbar-collapse" id="navbarDefault">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link pr-5" href="#home"><strong>Home</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pr-5" href="#skills"><strong>Skills</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pr-5" href="#projects"><strong>Projects</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pr-5" href="#timeline"><strong>Timeline</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pr-5" href="#contact-section"><strong>Contact</strong></a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#home"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#skills"><strong>Skills</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#projects"><strong>Projects</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#timeline"><strong>Timeline</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#contact-section"><strong>Contact</strong></a>
+                    </li>
                 </ul>
             </div>
         </nav>
-    </section>
 
-    <section id="home">
         <div class="jumbotron text-center bg-home">
             <div class="container p-5 jumbotron-container">
-                <h1 class="display-4"><strong>Linus Lööf</strong></h1>
+                <h2 class="display-4"><strong>Linus Lööf</strong></h2>
                 <p><strong>Full Stack Software Developer</strong></p>
             </div>
         </div>
-    </section>
-
-        <br>
+    </div>
+    
+    <br>
 
     <section id="skills">
         <div class="container">
-
-                <div class="skills" >
-                    <h1 class="custom-h1">Skills</h1>
+            <div class="skills-header" >
+                <h1 class="custom-h1">Skills</h1>
+            </div>
+            <div class="skills-content">
+                <h5 class="h5-bar">HTML5</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <div class="skills-margin">
-                    <h5 class="h5-bar">HTML5</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 class="h5-bar">CSS3</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 class="h5-bar">Bootstrap</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 class="h5-bar">JavaScript</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 class="h5-bar">Python / Django</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 class="h5-bar">SQL / NoSQL</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 class="h5-bar">MongoDB</h5>
-                    <div class="progress" style="height: 14px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                <h5 class="h5-bar">CSS3</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-
+                <h5 class="h5-bar">Bootstrap</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="h5-bar">JavaScript</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="h5-bar">Python / Django</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="h5-bar">SQL / NoSQL</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="h5-bar">MongoDB</h5>
+                <div class="progress" style="height: 14px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
         </div>
-    </section>
 
-    <br>
-
-    <section>
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center py-5">
@@ -110,38 +102,42 @@
     <hr>
 
     <section id="projects">
-        <h1 class="custom-h1">Projects</h1>
-        <br>
         <div class="container-fluid">
-            <div class="card-deck text-center">
-                <div class="card">
-                    <img class="card-img-custom" src="assets/images/lava.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project "Lava"</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                        <a class="btn btn-info" href="https://www.youtube.com/watch?v=EZjevnnkA20" target="_blank">Go Project!</a>
+            <h1 class="custom-h1">Projects</h1>
+
+            <br>
+
+            
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <img class="card-img-custom" src="assets/images/lava.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project "Lava"</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                            <a class="btn btn-info" href="https://www.youtube.com/watch?v=EZjevnnkA20" target="_blank">Go Project!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-custom" src="assets/images/forrest.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project "Forrest"</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                            <a class="btn btn-info" href="https://www.youtube.com/watch?v=uPIEn0M8su0" target="_blank">Go Project!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-custom" src="assets/images/ocean.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project "Ocean"</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                            <a class="btn btn-info" href="https://www.youtube.com/watch?v=BDocp-VpCwY" target="_blank">Go Project!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-custom" src="assets/images/forrest.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project "Forrest"</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                        <a class="btn btn-info" href="https://www.youtube.com/watch?v=uPIEn0M8su0" target="_blank">Go Project!</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-custom" src="assets/images/ocean.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project "Ocean"</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                        <a class="btn btn-info" href="https://www.youtube.com/watch?v=BDocp-VpCwY" target="_blank">Go Project!</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 
@@ -281,126 +277,119 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 p-5">
                     <img src="assets/images/profil.jpg" class="rounded-circle" id="profil-pic" alt="..">
                 </div>
-                    <div class="custom-text-contact col-lg-6 col-md-12 col-sm-12 p-5 text-center">
-                        <h2><strong>Hello!</strong></h2>
-                        <p class="pt-3"><strong>
-                            My name is Linus and I live in Malmö with my partner. I moved here
-                            about 2 years ago from Ystad and thrive very well in this city.
-                            I would describe myself as a real competitive person who gives my all in every
-                            challenges, big or small. My drive to win means that I have a huge focus and
-                            commitment. I see this as an advantage where independent work is a big part of
-                            everyday.
-                            Previously, I have work experience in the sales and construction industry. I thrive in
-                            forms of work where social contact is included in the work role. 
-                        </strong></p>
-                    </div>
-                
+                <div class="custom-text-contact col-lg-6 col-md-12 col-sm-12 p-5 text-center">
+                    <h2><strong>Hello!</strong></h2>
+                    <p class="pt-3"><strong>
+                        My name is Linus and I live in Malmö with my partner. I moved here
+                        about 2 years ago from Ystad and thrive very well in this city.
+                        I would describe myself as a real competitive person who gives my all in every
+                        challenges, big or small. My drive to win means that I have a huge focus and
+                        commitment. I see this as an advantage where independent work is a big part of
+                        everyday.
+                        Previously, I have work experience in the sales and construction industry. I thrive in
+                        forms of work where social contact is included in the work role. 
+                    </strong></p>
+                </div>
             </div>
         </div>
     </section>
     <section class="container col-12 pb-5">
-            <div class="row">
-                <div class="col-lg-5 mb-4">
-                    <div class="card">
-                        <div class="card-body">
+        <div class="row">
+            <div class="col-lg-5 mb-4">
+                <div class="card">
+                    <div class="card-body">
                         <div class="form-header blue accent-1">
                             <h3><i class="fas fa-envelope"></i> Contact</h3>
                         </div>
 
-            <br>
-            <form>  
-                        <div class="md-form">
-                            <i class="fas fa-user prefix grey-text"></i>
-                            <input type="text" id="form-name" class="form-control">
-                            <label for="form-name">Your name</label>
-                        </div>
+                        <br>
 
-                        <div class="md-form">
-                            <i class="fas fa-envelope prefix grey-text"></i>
-                            <input type="text" id="form-email" class="form-control">
-                            <label for="form-email">E-mail</label>
-                        </div>
-
-                        <div class="md-form">
-                            <i class="fas fa-tag prefix grey-text"></i>
-                            <input type="text" id="form-Subject" class="form-control">
-                            <label for="form-Subject">Subject</label>
-                        </div>
-
-                        <div class="md-form">
-                            <i class="fas fa-pencil-alt prefix grey-text"></i>
-                            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                            <label for="form-text"></label>
-                        </div>
-
-                        <div>
-                            <button type="submit" class="btn btn-info">Submit</button>
-                        </div>
-                        
+                        <form>  
+                            <div class="md-form">
+                                <i class="fas fa-user prefix grey-text"></i>
+                                <input type="text" id="form-name" class="form-control">
+                                <label for="form-name">Your name</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-envelope prefix grey-text"></i>
+                                <input type="text" id="form-email" class="form-control">
+                                <label for="form-email">E-mail</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-tag prefix grey-text"></i>
+                                <input type="text" id="form-Subject" class="form-control">
+                                <label for="form-Subject">Subject</label>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="form-text"></label>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-info">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </form>
-        <div class="col-lg-7">
-          <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.1630502200815!2d13.0009709160843!3d55.59917591129723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a1577bb30029%3A0xa5df5da81000776e!2sLugna%20gatan%2047%2C%20211%2059%20Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1606220091025!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
-              ></iframe>
-          </div>
-
-
-          <br>
-
-          <div class="row text-center">
-            <div class="col-md-4">
-              <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
-              <p>Malmö, Lugna gatan 47</p>
-              <p>Sweden</p>
-            </div>
-            <div class="col-md-4">
-              <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
-              <p>0763 07 17 65</p>
-            </div>
-            <div class="col-md-4">
-              <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
-              <p>Linus.Loof96@gmail.com</p>
+            <div class="col-lg-7">
+            <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.1630502200815!2d13.0009709160843!3d55.59917591129723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a1577bb30029%3A0xa5df5da81000776e!2sLugna%20gatan%2047%2C%20211%2059%20Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1606220091025!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
 
+                <br>
+
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                        <p>Malmö, Lugna gatan 47</p>
+                        <p>Sweden</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                        <p>0763 07 17 65</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                        <p>Linus.Loof96@gmail.com</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <br>
     
-        <section>
-                <footer class="page-footer font-small special-color-dark pt-4">
-                    <div class="container-social-media">
-                        <ul class="list-unstyled list-inline text-center ">
-                            <li class="list-inline-item">
-                                <a class="fb-ic mr-5 ml-5" role="button" href="https://www.facebook.com/linus.loof.1" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="fb-ic mr-5 ml-5" role="button" href="https://github.com/LinusLoof" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="fb-ic mr-5 ml-5" role="button" href="https://www.linkedin.com/in/linus-l%C3%B6%C3%B6f-823642182/" target="_blank">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="fb-ic mr-5 ml-5" role="button" href="assets/resume/Loof_CV.pdf" target="_blank">
-                                    <i class="fas fa-file-pdf"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-copyright text-center py-3">
-                    <p><strong>© 2020 Copyright: Linus Lööf</strong></p>
-                    </div>
-                </footer>
-        </section>
+    <section id="footer">
+        <footer class="page-footer font-small special-color-dark pt-4">
+            <div class="container-social-media">
+                <ul class="list-unstyled list-inline text-center ">
+                    <li class="list-inline-item">
+                        <a class="fb-ic mr-5 ml-5" role="button" href="https://www.facebook.com/linus.loof.1" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="fb-ic mr-5 ml-5" role="button" href="https://github.com/LinusLoof" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="fb-ic mr-5 ml-5" role="button" href="https://www.linkedin.com/in/linus-l%C3%B6%C3%B6f-823642182/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="fb-ic mr-5 ml-5" role="button" href="assets/resume/Loof_CV.pdf" target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-copyright text-center py-3">
+                <h5>© 2020 Copyright: Linus Lööf</h5>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
