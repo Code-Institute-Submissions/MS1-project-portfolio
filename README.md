@@ -1,7 +1,7 @@
 # MS1-PROJECT-PORTFOLIO
 
 
-Welcome to my portfolio, on this site you get to know me better and i hope that i can get to know you too!
+Welcome to my portfolio
 
 ---
 
