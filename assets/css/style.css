@@ -12,6 +12,9 @@ body {
     color: black;
 }
 
+footer {
+    width: 100%;
+}
 
 
 .custom-h1-header h1 {
@@ -192,10 +195,10 @@ nav {
     align-content: center;
     max-width: 100%;
     width: 100%;
-    height: auto !important;
 }
 
-@media all and (max-width: 500px) and (min-width: 500px), (min-width: 500px) {
+
+@media all and (max-width: 768px) and (min-width: 768px), (min-width: 768px) {
     #profil-pic {
       width: 500px;
       height: auto;

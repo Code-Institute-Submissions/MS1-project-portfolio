@@ -7,16 +7,23 @@ Welcome to my portfolio, on this site you get to know me better and i hope that 
 
 # Table of contents
 
+* [Inspiration](#Inspiration)
 * [UX](#UX)
 * [Screenshots](#screenshots)
 * [Features](#features)
 * [Testing](#testing)
 * [Technologies](#technologies)
 * [Code](#code/sources)
-* [Setup](#setup)
-* [Status](#Status)
-* [Inspiration](#Inspiration)
+* [Deployment](#deployment)
 * [Contact](#Contact)
+
+---
+
+## Inspiration
+
+
+I got a lot of inspiration from Apple's website as I wanted it very clean just like their website. I was also in other people's portfolios and checked a bit how they had done on their websites. but mostly it was to google around on pages I like and see how they did.
+
 
 ---
 
@@ -181,20 +188,9 @@ https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png
 
 ---
 
-## Setup
+## Deployment
 
----
-
-
-## Status
-
----
-
-## Inspiration
-
-
-I got a lot of inspiration from Apple's website as I wanted it very clean just like their website. I was also in other people's portfolios and checked a bit how they had done on their websites. but mostly it was to google around on pages I like and see how they did.
-
+Github pages
 
 ---
 
