@@ -1,7 +1,8 @@
 # MS1-PROJECT-PORTFOLIO
 
 
-Welcome to my portfolio
+I chose to make a portfolio as my first project in this course as a basis in order to build my brand outwards when I apply for a job. My target group is primarily recruiters and future employers. 
+I want to demonstrate my strengths' in programming as well as an idea of who I am as a person to facilitate my target group's quest for a future employee.
 
 ---
 
@@ -29,9 +30,29 @@ I got a lot of inspiration from Apple's website as I wanted it very clean just l
 
 # UX
 
+#  User stories
 
-I chose to make a portfolio as my first project in this course as a basis in order to build my brand outwards when I apply for a job. My target group is primarily recruiters and future employers. 
-I want to demonstrate my strengths' in programming as well as an idea of who I am as a person to facilitate my target group's quest for a future employee.
+##  First Time Visitor Goals
+
+*
+*
+*
+
+
+## Returning Visitor Goals
+
+*
+*
+*
+
+
+##  Frequent User Goals
+
+*
+*
+*
+    
+
 
 # Features
 
