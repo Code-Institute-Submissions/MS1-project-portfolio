@@ -36,8 +36,6 @@ I got a lot of inspiration from [Apple's](https://www.apple.com/) website as I w
 
 # UX
 
-My UX goals was to create a website that displayed my programming strengths and personality to my target group (recruiters and future employers). 
-
 #  User stories
 
 ##  First Time Visitor Goals
@@ -61,36 +59,36 @@ My UX goals was to create a website that displayed my programming strengths and 
 
 ## Existing Features
 
-* Feature 1 - A navigation bar for users so they can navigate throw the page nice and smooth.
-* Feature 2 - A skills section for recruiters so they easy can get a picture of what i can.
-* Feature 3 - Timeline and contact section that also show recruiters what i have done before and how to get in touch with me. 
+* Feature 1 - A navigation bar for users so they can navigate through the page nice and smooth.
+* Feature 2 - A skills section for recruiters so they easyily can get a picture of what I can do.
+* Feature 3 - Timeline and contact section that also show recruiters what I have done before and how to get in touch with me. 
 * Feature 4 - A contactform for people to contact me.
 * Feature 5 - Footer with social media links and a link to download my resume.
 
 ## Feature ideas to Implement
 
-* I have an idea of makeing a nicer frontpage header with js
-* The project section i wan't to do like a carusell thing so the pictures are much bigger and to add text on the pictures. This also whit js.
+* I have an idea of making a more pleasant frontpage header with js
+* The project section I would like to do moving pictures and add text on the pictures. This also with js.
 * Fix the submit button so the form works.
-* The project section is for projects i do in the future, for now i its just examples.
+* The project section is for projects I do in the future, for now it's just examples.
 
 ---
 
 # Screenshots
 
-This is a picture before my first mentor call my code were broken and things weren't were its supposed to be. 
+This is a picture before my first mentor call, my code was broken and things weren't were its supposed to be. 
 
-1. At first i had a grayscale on my background pic whitch looks nicer whitout.
+1. At first I had a grayscale on my background pic which looks nicer without.
 2. Several parts was "broken" in terms of alignment, mostly on mobile and tablets.
 3. I had alot of problems with the navigation bar, it broke on mobile and tablets. 
-4. In the beginning i didn´t use boostrap so much and i became a problem further in the project.
+4. In the beginning I didn´t use boostrap that much and it became a problem further along in the project.
 
 ![alternativetext](assets/images/screen3.png)
 
-This are pictures when im almost finished. 
+These are pictures when I'm almost finished. 
 
-1. First i choosed to have the background picture cover the whole front page. Then i took away the grayscale becuse it looks more nice without it.
-2. I fixed the broken parts mostly the navbar so it fits mobile and tablets. I used media Querys to solve most problems with the navbar and profilepicture. then i started to use bootstraps "row" and "col" to solve the alignment issues i had on the page. 
+1. First I choosed to have the background picture cover the whole front page. Then I took away the grayscale becuse it looks more nice without it.
+2. I fixed the broken parts mostly the navbar so it fits mobile and tablets. I used media Querys to solve most problems with the navbar and profilepicture. Then I started to use bootstraps "row" and "col" to solve the alignment issues I had on the page. 
 
 
 ![alternativetext](assets/images/screen.png)
@@ -104,13 +102,13 @@ This are pictures when im almost finished.
 # Design
 
 * ## Colour Scheme
-    * The two main colours i have used is blue hexcolor and then used diffrent transperansie on them.
+    * The two main colours I've used is blue hexcolor and then used diffrent transperansie on them.
 
 * ## Typography
     * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 
 * ## Imagery
-    * Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. 
+    * Imagery is important. The large background hero image is designed to be striking and catch the user's attention. 
 
 * ## Wireframes 
     * Home Page Wireframe - [View](assets/images/pic1.jpg)
@@ -125,7 +123,7 @@ This are pictures when im almost finished.
 
 * Using the inspector tool to test if the page was responsive on serveral different devices and browsers. 
 * Having other people around me try to navigate the page and look for bugs that I didn't catch myself.
-* Code validator.
+* Code validator both for html and css.
 * In the future I plan to implement automated tests.
 
 ### Testing User Stories from UX Section
@@ -163,7 +161,7 @@ This are pictures when im almost finished.
 
 * After trying to implement a responsive page, I didn't get the navigation bar to work correctly on smaller devices.
 1. When viewing the page on mobile or a tablet, the navigation bar had been switched into a dropdown "hamburger" menu. But when clicking on the hamburger icon, the dropdown didn't drop down to show the menu options.
-2. I solved this by adding an invisible checkbox that was layered above the hamburger icon. This way I could check for when the dropdown menu was clicked using the :checked selector in css. When the checkbox was checked I made the dropdown menu visible.
+2. I solved this by adding an invisible checkbox that was layered above the hamburger icon. This way I could check for when the dropdown menu was clicked using the :checked selector in css. When the checkbox was checked I made the dropdown menu visible in css.
 
 * During testing I also found an issue when viewing tablet devices. The problem was that I didn't get it correctly responsive for Ipad.
 1. Using the inspector tool, I tested the page on a Ipad view. 
@@ -207,11 +205,11 @@ This are pictures when im almost finished.
 
 ## Content
 
-Here i found the map and form that i used on my page, i changed it a bit so it fit more into my page. I haven't used the Javascript but in the future I will use it so everything works.
+Here I found the map and form that i used on my page, I changed it a bit so it fit more into my page. I haven't used the Javascript but in the future I will use it so everything works.
 
 https://mdbootstrap.com/docs/jquery/javascript/google-maps/
 
-Here i found how to put my text behind the background picture. I used "z-index" to solve this problem.
+Here I found how to put my text behind the background picture. I used "z-index" to solve this problem.
 
 https://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css
 
