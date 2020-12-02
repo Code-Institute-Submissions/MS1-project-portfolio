@@ -207,6 +207,10 @@ This are pictures when im almost finished.
 
 ## Content
 
+Here i found the map and form that i used on my page, i changed it a bit so it fit more into my page. I haven't used the Javascript but further i will use it so everything works.
+
+https://mdbootstrap.com/docs/jquery/javascript/google-maps/
+
 Here i found how to put my text behind the background picture. I used "z-index" to solve this problem.
 
 https://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css
