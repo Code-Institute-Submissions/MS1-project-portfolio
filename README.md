@@ -1,5 +1,10 @@
 # MS1-PROJECT-PORTFOLIO
 
+---
+
+[View the live project here](https://linusloof.github.io/MS1-project-portfolio/)
+
+![alternativetext](assets/images/devices.png)
 
 I chose to make a portfolio as my first project in this course as a basis in order to build my brand outwards when I apply for a job. My target group is primarily recruiters and future employers. 
 I want to demonstrate my strengths' in programming as well as an idea of who I am as a person to facilitate my target group's quest for a future employee.
@@ -10,8 +15,9 @@ I want to demonstrate my strengths' in programming as well as an idea of who I a
 
 * [Inspiration](#Inspiration)
 * [UX](#UX)
-* [Screenshots](#screenshots)
 * [Features](#features)
+* [Screenshots](#screenshots)
+* [Design](#design)
 * [Testing](#testing)
 * [Technologies](#technologies)
 * [Code](#code/sources)
@@ -23,7 +29,7 @@ I want to demonstrate my strengths' in programming as well as an idea of who I a
 ## Inspiration
 
 
-I got a lot of inspiration from Apple's website as I wanted it very clean just like their website. I was also in other people's portfolios and checked a bit how they had done on their websites. but mostly it was to google around on pages I like and see how they did.
+I got a lot of inspiration from [Apple's](https://www.apple.com/) website as I wanted it very clean just like their website. I was also in other people's portfolios and checked a bit how they had done on their websites. but mostly it was to google around on pages I like and see how they did.
 
 
 ---
@@ -95,6 +101,24 @@ This are pictures when im almost finished.
 
 ---
 
+# Design
+
+* ## Colour Scheme
+    * The two main colours i have used is blue hexcolor and then used diffrent transperansie on them.
+
+* ## Typography
+    * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+
+* ## Imagery
+    * Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. 
+
+* ## Wireframes 
+    * Home Page Wireframe - [View](assets/images/pic1.jpg)
+    * Contact Us Page Wireframe - [View](assets/images/pic2.jpg)
+
+
+---
+
 # Testing
 
 ### My methods for testing my webpage consisted of:
@@ -135,7 +159,6 @@ This are pictures when im almost finished.
 * As a Frequent User, I want to check to see if there are any new skills updated.
     - By clicking the "skills" link in the navigation, the user can check the skills section and see if there are any new skills by checking the progress bars or the logos for each programming skill.
 
-
 ### Here is some examples of bugs that I encounterd during testing:
 
 * After trying to implement a responsive page, I didn't get the navigation bar to work correctly on smaller devices.
@@ -147,23 +170,35 @@ This are pictures when im almost finished.
 2. After looking for bugs in the Ipad view, I noticed that some of the different sections where meshed together.
 3. Using media querys in the css, I made an exception for the existing margins when on a Ipad sized view.
 
+*  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+    * [W3C Markup Validator](https://validator.w3.org/)
+    * [W3C CSS Validator](https://jigsaw.w3.org/css-validator)
+
 ---
 
 # Technologies
 
-1. Bootstrap 4.4.1:
-* Bootstrap was used to assist with the responsiveness and styling of the website.
-2. Hover.css:
-* Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3. Google Fonts:
-* Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4. Font Awesome:
-* Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5. Git:
-* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-6. GitHub:
-* GitHub is used to store the projects code after being pushed from Git.
+### Languages Used
+* HTML5
+* CSS3
 
+### Frameworks, Libraries & Programs Used
+
+1. Bootstrap 4.1.3:
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
+2. Hover.css:
+    * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+3. Google Fonts:
+    * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+4. Font Awesome:
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+5. Git:
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+6. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+7. Photoshop:
+    * Photoshop was used to create the picture on the devices.
 
 
 ---
