@@ -30,19 +30,21 @@ I got a lot of inspiration from Apple's website as I wanted it very clean just l
 
 # UX
 
+My UX goals was to create a website that displayed my programming strengths' and personality to my target group (recruiters and future employers). 
+
 #  User stories
 
 ##  First Time Visitor Goals
 
 * When I visit this site for the first time, I want to easily understand the main purpose of the site.
-* When I visit this site for the first time, I want to be able to easily navigate throughout the site to find content.
-* When I visit this site for the first time, I want to get a professional presentation of the person which the site is created by. 
+* When I visit this site for the first time, I want to be able to easily navigate throughout the site to find relevant content.
+* When I visit this site for the first time, I want to get a professional impression of the person which the site is created by. 
 
 ## Returning Visitor Goals
 
 * As a Returning Visitor, I want to find information about previous projects from the creator.
 * As a Returning Visitor, I want to find the best way to get in contact with the creator with any questions I may have.
-* As a Returning Visitor, I want to get a more in-depth representation of the person creating the site.
+* As a Returning Visitor, I want to get a more in-depth presentation of the person creating the site.
 
 ##  Frequent User Goals
 
@@ -108,26 +110,31 @@ This are pictures when im almost finished.
 
 * When I visit this site for the first time, I want to easily understand the main purpose of the site.
     - When entering the site, there is a big headline with my name and profession, strongly indicating that this is a portfolio.
-    - By clicking on the items in the navigation bar, the user is lead to more 
+    - By clicking on the links in the navigation bar, or scrolling down, the user is lead to more sections which contains information about me and relevant information for a recruiter.
 * When I visit this site for the first time, I want to be able to easily navigate throughout the site to find content.
-* When I visit this site for the first time, I want to get a professional presentation of the person which the site is created by. 
+    - At the top of the page there is a navigation bar, each link describes what the page contents of.
+* When I visit this site for the first time, I want to get a professional presentation of the person which the site is created by.
+    - I've done a lot of bug testing to make sure that the user is left with a site that is well-working.
+    - I went for a clean look that doesn't contain irrelevant information or annoying colors and images.  
 
 ## Returning Visitor Goals
 
 * As a Returning Visitor, I want to find information about previous projects from the creator.
+    - There is distinct link in the navigation called "projects" that leads to the projects section.
+    - I have several examples of previous projects in the project section, which leads to more information about each one.
 * As a Returning Visitor, I want to find the best way to get in contact with the creator with any questions I may have.
+    - In the top navigation there is a "contact" link that leads the user to a section with a form which they can use to get in touch via email.
 * As a Returning Visitor, I want to get a more in-depth representation of the person creating the site.
+    - In the "contact" section I have a small presentation text that aims to explain a little more about me as person and why I started my journey to become a full-stack developer.
+    - I also have links in the footer, that leads to my facebook, github, linkedIn and CV.
 
 ##  Frequent User Goals
 
 * As a Frequent User, I want to check to see if there are any new projects updated.
+    - By simply clicking the "projects" link the navigation, the user can check the projects section and see if there are any new projects since the newest projects will be displayed first in line.
 * As a Frequent User, I want to check to see if there are any new skills updated.
+    - By clicking the "skills" link in the navigation, the user can check the skills section and see if there are any new skills by checking the progress bars or the logos for each programming skill.
 
-My UX goals was to create a website that displayed my programming strengths' and personality to my target group (recruiters and future employers). 
-
-* I believe by creating a well-working and aesthetic website my target group can see my strength in the frontend department. Later when I have backend projects to use in the "projects" section, I can also provide a showcase of strengths' in the backend department.
-
-* I try to present my personality via the section called "My background" which contains a timeline of my previous workplaces and what I have studied before. Another section is called "Contact" which goes more in depth and has a little less formal tone.
 
 ### Here is some examples of bugs that I encounterd during testing:
 
