@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
+/* General */
 
 html {
     scroll-behavior: smooth;
@@ -13,16 +14,8 @@ body {
     color: black;
 }
 
-footer {
-    width: 100%;
-}
-
-
-.jumbotron-container {
-    background-color: #ffffffa6;
-    border-radius: 1em;
-    margin-top: 7em;
-    font-size: 30px;
+button {
+    z-index: 2;
 }
 
 .custom-h1-header h1 {
@@ -33,38 +26,6 @@ footer {
     z-index: 1;
 }
 
-@media (max-height: 1924px) {
-    .custom-h1-header h1 {
-        margin-top: 2em;
-
-    }
-}
-
-@media (min-height: 769px) {
-    .custom-h1-header h1 {
-        margin-top: 4em;
-
-    }
-}
-
-@media (max-height: 768px) {
-    .custom-h1-header h1 {
-        margin-top: 4em;
-
-    }
-}
-
-.bg-home {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-    background-size: cover;
-    height: 100vh;
-    background-image: url("../images/zermatt-1803481_1920.jpg");
-
-}
-
 .custom-h1-header p {
     font-size: 30px;
     color: black;
@@ -72,51 +33,11 @@ footer {
     padding-bottom: 15px;
 }
 
-
 .header {
     background-color: rgba(255, 255, 255, 0.35);
 }
 
-/* Menu Iteams */
-
-
-
-/* Hover */
-
-
-
-/* Footer */
-
-.page-footer {
-    background-color: rgba(11, 139, 142, 0.2);
-    margin-top: 100px;
-    z-index: 0;
-}
-
-.footer-copyright {
-    background-color: rgba(11, 139, 142, 0.3);
-}
-
-.page-footer i {
-
-    color: black;
-}
-
-.container-social-media {
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 40px;
-    margin-top: 0;
-    position: sticky;
-    top: 0;
-}
-
-
 /* Navbar */
-
-button {
-    z-index: 2;
-}
-
 
 .navbar input {
     opacity: 0;
@@ -138,15 +59,9 @@ nav {
 
 .navbar-toggler-icon {
     display: none;
- }
+}
 
-@media (max-width: 991px) {
-    .navbar-toggler-icon {
-      display: block;
-    }
- }
-
- .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: white;
 }
 
@@ -159,7 +74,6 @@ nav {
     z-index: 2;
 }
 
-
 .nav-link {
     padding-left: 50px;
     padding-right: 50px;
@@ -171,75 +85,98 @@ nav {
     font-size: 30px;
 }
 
+/* Footer */
 
-
-
-@media (max-width: 1208px) {
-    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
-        padding-right: 0;
-        padding-left: 0;
-        }
-    }
-
-
-
-
-/* About */
-
-.custom-text-contact {
-    font-size: 20px;
-}
-
-@media (max-height: 768px) {
-    .custom-text-contact {
-        margin-top: 10px;
-        vertical-align: bottom;
-    }
-}
-
-#profil-pic {
-    align-content: center;
-    max-width: 100%;
+footer {
     width: 100%;
 }
 
-
-@media all and (max-width: 768px) and (min-width: 768px), (min-width: 768px) {
-    #profil-pic {
-      height: auto;
-      align-items: center;
-    }
-  }
-
-
-.contact-top {
-    text-align: center;
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 90px;
-    margin-top: 200px;
+.page-footer {
+    background-color: rgba(11, 139, 142, 0.2);
+    margin-top: 100px;
+    z-index: 0;
 }
 
+.footer-copyright {
+    background-color: rgba(11, 139, 142, 0.3);
+}
 
-/* Project */
+.page-footer i {
+    color: black;
+}
 
+.container-social-media {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
 
-/* map */
+/* Home */
 
-.map-container-6{
+.bg-home {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+    background-image: url("../images/zermatt-1803481_1920.jpg");
+}
+
+.jumbotron-container {
+    background-color: #ffffffa6;
+    border-radius: 1em;
+    margin-top: 7em;
+    font-size: 30px;
+}
+
+/* Skills */
+
+.progress {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.h5-bar {
+    text-align: center;
+}
+
+.text-skills h3 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Cormorant Garamond", sans-serif;
+} 
+
+.text-skills {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 30px;
+}
+
+/* Projects */
+
+/* Map */
+
+.map-container-6 {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    }
-    .map-container-6 iframe{
+}
+
+.map-container-6 iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
     border: none;
-    }
-
+}
 
 .card h5 {
     text-align: center;
@@ -264,31 +201,6 @@ nav {
     object-fit: contain;
 }
 
-.progress {
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.h5-bar {
-    text-align: center;
-    
-}
-
-.text-skills h3 {
-    font-size: 60px;
-    text-align: center;
-    margin-top: 80px;
-    font-family: "Cormorant Garamond", sans-serif;
-} 
-
-.text-skills {
-    margin-left: 300px;
-    margin-right: 300px;
-    font-family: "Cormorant Garamond", sans-serif;
-    font-size: 30px;
-}
-
 .custom-h1 {
     text-align: center;
     font-family: "Cormorant Garamond", sans-serif;
@@ -296,6 +208,8 @@ nav {
     padding-bottom: 2em;
     padding-top: 2em;
 }
+
+/* Timeline */
 
 .main-timeline {
     position: relative
@@ -480,6 +394,27 @@ nav {
     text-align: right
 }
 
+/* Contact */
+
+.custom-text-contact {
+    font-size: 20px;
+}
+
+#profil-pic {
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.contact-top {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 90px;
+    margin-top: 200px;
+}
+
+/* Media Queries */
+
 @media only screen and (max-width: 991px) {
     .main-timeline .date-content {
         margin-top: 35px
@@ -543,5 +478,50 @@ nav {
     }
     .main-timeline .title {
         margin-bottom: 10px
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 768px), (min-width: 768px) {
+    #profil-pic {
+      height: auto;
+      align-items: center;
+    }
+}
+
+@media (max-width: 1208px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-height: 768px) {
+    .custom-text-contact {
+        margin-top: 10px;
+        vertical-align: bottom;
+    }
+}
+
+@media (max-height: 1924px) {
+    .custom-h1-header h1 {
+        margin-top: 2em;
+    }
+}
+
+@media (min-height: 769px) {
+    .custom-h1-header h1 {
+        margin-top: 4em;
+    }
+}
+
+@media (max-height: 768px) {
+    .custom-h1-header h1 {
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon {
+      display: block;
     }
 }

@@ -6,8 +6,8 @@
 
 ![alternativetext](assets/images/devices.png)
 
-I chose to make a portfolio as my first project in this course as a basis in order to build my brand outwards when I apply for a job. My target group is primarily recruiters and future employers. 
-I want to demonstrate my strengths' in programming as well as an idea of who I am as a person to facilitate my target group's quest for a future employee.
+I chose to make a portfolio as my first project in this course in order to build my brand outwards when I apply for a job. My target group is primarily recruiters and future employers. 
+I want to demonstrate my strengths in programming as well as an idea of who I am as a person to facilitate my target group's quest for a future employee.
 
 ---
 
@@ -29,14 +29,14 @@ I want to demonstrate my strengths' in programming as well as an idea of who I a
 ## Inspiration
 
 
-I got a lot of inspiration from [Apple's](https://www.apple.com/) website as I wanted it very clean just like their website. I was also in other people's portfolios and checked a bit how they had done on their websites. but mostly it was to google around on pages I like and see how they did.
+I got a lot of inspiration from [Apple's](https://www.apple.com/) website as I wanted it very clean just like their website. I viewed other people's portfolios and analyzed how they had done on their websites. Mostly I googled around too see which types of websites I found interesting.
 
 
 ---
 
 # UX
 
-My UX goals was to create a website that displayed my programming strengths' and personality to my target group (recruiters and future employers). 
+My UX goals was to create a website that displayed my programming strengths and personality to my target group (recruiters and future employers). 
 
 #  User stories
 
@@ -207,7 +207,7 @@ This are pictures when im almost finished.
 
 ## Content
 
-Here i found the map and form that i used on my page, i changed it a bit so it fit more into my page. I haven't used the Javascript but further i will use it so everything works.
+Here i found the map and form that i used on my page, i changed it a bit so it fit more into my page. I haven't used the Javascript but in the future I will use it so everything works.
 
 https://mdbootstrap.com/docs/jquery/javascript/google-maps/
 
