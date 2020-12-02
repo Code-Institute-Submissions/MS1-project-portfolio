@@ -34,25 +34,20 @@ I got a lot of inspiration from Apple's website as I wanted it very clean just l
 
 ##  First Time Visitor Goals
 
-*
-*
-*
-
+* When I visit this site for the first time, I want to easily understand the main purpose of the site.
+* When I visit this site for the first time, I want to be able to easily navigate throughout the site to find content.
+* When I visit this site for the first time, I want to get a professional presentation of the person which the site is created by. 
 
 ## Returning Visitor Goals
 
-*
-*
-*
-
+* As a Returning Visitor, I want to find information about previous projects from the creator.
+* As a Returning Visitor, I want to find the best way to get in contact with the creator with any questions I may have.
+* As a Returning Visitor, I want to get a more in-depth representation of the person creating the site.
 
 ##  Frequent User Goals
 
-*
-*
-*
-    
-
+* As a Frequent User, I want to check to see if there are any new projects updated.
+* As a Frequent User, I want to check to see if there are any new skills updated.
 
 # Features
 
@@ -102,10 +97,31 @@ This are pictures when im almost finished.
 
 ### My methods for testing my webpage consisted of:
 
-* Using the inspector tool to test if the page was responsive on serveral different devices. 
+* Using the inspector tool to test if the page was responsive on serveral different devices and browsers. 
 * Having other people around me try to navigate the page and look for bugs that I didn't catch myself.
 * Code validator.
 * In the future I plan to implement automated tests.
+
+### Testing User Stories from UX Section
+
+##  First Time Visitor Goals
+
+* When I visit this site for the first time, I want to easily understand the main purpose of the site.
+    - When entering the site, there is a big headline with my name and profession, strongly indicating that this is a portfolio.
+    - By clicking on the items in the navigation bar, the user is lead to more 
+* When I visit this site for the first time, I want to be able to easily navigate throughout the site to find content.
+* When I visit this site for the first time, I want to get a professional presentation of the person which the site is created by. 
+
+## Returning Visitor Goals
+
+* As a Returning Visitor, I want to find information about previous projects from the creator.
+* As a Returning Visitor, I want to find the best way to get in contact with the creator with any questions I may have.
+* As a Returning Visitor, I want to get a more in-depth representation of the person creating the site.
+
+##  Frequent User Goals
+
+* As a Frequent User, I want to check to see if there are any new projects updated.
+* As a Frequent User, I want to check to see if there are any new skills updated.
 
 My UX goals was to create a website that displayed my programming strengths' and personality to my target group (recruiters and future employers). 
 
